@@ -3,7 +3,7 @@
 #   Setup openlava environment variables
 #
 
-LSF_ENVDIR=@prefix@/etc
+LSF_ENVDIR=@sysconfdir@
 PATH=$PATH:@prefix@/bin
 
 export LSF_ENVDIR PATH

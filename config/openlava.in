@@ -20,7 +20,7 @@
 
 # This is the root of openlava installation
 # change it if installed somewhere else.
-export OPENLAVA_TOP=@prefix@
+export OPENLAVA_TOP=@sysconfdir@
 
 # kill the old daemons first.
 #
@@ -48,7 +48,7 @@ case "$opcode" in
         ;;
 
   'start')
-        LSF_CONF=$OPENLAVA_TOP/etc/lsf.conf
+        LSF_CONF=$OPENLAVA_TOP/lsf.conf
 
         if [ -f $LSF_CONF ]
         then
