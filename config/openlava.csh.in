@@ -3,4 +3,3 @@
 #     Sets the C shell user environment for openlava commands
 #
 setenv LSF_ENVDIR @sysconfdir@
-set path = ($path @prefix@/bin)

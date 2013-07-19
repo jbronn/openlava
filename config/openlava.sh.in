@@ -4,6 +4,5 @@
 #
 
 LSF_ENVDIR=@sysconfdir@
-PATH=$PATH:@prefix@/bin
 
-export LSF_ENVDIR PATH
+export LSF_ENVDIR
