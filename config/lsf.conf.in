@@ -5,7 +5,7 @@
 #
 LSF_SERVERDIR=@prefix@/sbin
 LSF_BINDIR=@prefix@/bin
-LSB_SHAREDIR=@prefix@/work
+LSB_SHAREDIR=@sharedstatedir@
 LSF_ENVDIR=@sysconfdir@
 
 # Configuration directories
